@@ -22,30 +22,29 @@ Outline and justify how your level design facilitates the core player experience
 1. Problem-solving skills The game presents players with obstacles, puzzles, and enemies that require quick thinking and strategic planning to overcome. Players learn to analyze situations and develop effective solutions to progress through levels.
 2. Hand-eye coordination  The game requires precise control and timing. Players improve their hand-eye coordination as they navigate obstacles, jump on platforms, and avoid enemies.
 3. Persistence and resilience The game can be challenging, with difficult levels and tricky obstacles. Players learn the value of persistence and resilience as they repeatedly attempt to overcome challenges and progress further in the game.
-4.Risk assessment. Players must assess risks and rewards when deciding how to approach obstacles and enemies. Learning when to take risks and when to proceed cautiously is a valuable skill that can be applied in various contexts.
+4. Risk assessment. Players must assess risks and rewards when deciding how to approach obstacles and enemies. Learning when to take risks and when to proceed cautiously is a valuable skill that can be applied in various contexts.
 In the game, players will discover health potions, but they need to take risks to get them.
 
 ### 1.2. Drama
-My game intensity curve goes from low to high and then slowly decreases.
-The first part of the game involves the player doing some simple jumps and dodging a handful of monsters. In the second part of the game, the player has to avoid more monsters. Before entering the third part (the cave), the player can recover 3 health points by defeating the monster, which will feel relaxed, while entering the cave requires the player to quickly break obstacles and avoid the attack of the monster, which will be very tense.
+My game intensity curve goes from low to high.
+The first part of the game involves the player doing some simple jumps and dodging a handful of monsters. In the second part of the game, the player has to avoid more monsters. Before entering the third part (the cave), the player can recover 3 health points by defeating the monster, which will feel relaxed, while entering the cave requires the player to quickly break obstacles and avoid the attack of the monster, which will be very tense. When players get 3 keys, they need to figure out how to get back to the base. On their way back, they need to do some challenging jumps and dodge monsters' attacks. One mistake may cause failure of the game, so on their way back, players will feel intense.
 
 ### 1.3. Challenge
 
-1. Platforming challenges. Players must master precise jumps and timing to progress.
-2. Enemy encounters: Throughout the game, players encounter various enemies, each with its own behavior and attack patterns. Players must learn how to effectively defeat or avoid these enemies to continue their journey.
-3. Precision and timing: This game demands precise control and timing from players, particularly when executing jumps, dodging obstacles, or navigating tight spaces. Small errors in timing or execution can result in failure.
-In this game, the player encounters few monsters in part1 but will deal with more and more monsters with the progression of the game.
+1. Platforming challenges. Players must master precise jumps and timing to progress. For example, in section 1, players need to jump to passthrough platform and avoid spikes, which is really challenging.
+2. Enemy encounters: Throughout the game, players encounter various enemies, each with its own behavior and attack patterns. Players must learn how to effectively defeat or avoid these enemies to continue their journey. For example, there are some monsters on the platforms in section 1.
+3. Precision and timing: This game demands precise control and timing from players, particularly when executing jumps, dodging obstacles, or navigating tight spaces. Small errors in timing or execution can result in failure. When I was playing the game, I fell off the platform for hundreds of times, it's truly challenging.
+4. Exploration: The game hides health potions behind monsters and encourages players to explore the map.
+In this game, the player encounters few monsters in part 1 but will deal with more and more monsters with the progression of the game, which will be very challenging.
 
 ### 1.4. Exploration
 
-1. Movement. Movement is essential for exploring different areas of the level, jumping over obstacles, and reaching higher platforms.
-2. Observation: Players observe the environment for clues.
+1. Movement. Movement is essential for exploring different areas of the level, jumping over obstacles, and reaching higher platforms. One mismove will cause a lose of health or failure of the game.
+2. Observation: Players observe the environment for clues. From the start of the game, players begin to observe the environment and will figure out their way to progress.
 3. Trial and error: Exploration often involves experimentation and trial and error. Players may try different paths, jumps, or actions to uncover secrets or progress through the level.
 In the game, players will find movable boxes and they will try to move the box to reach higher platforms. When the player explores the cave, there will be many monsters and acid. Players will be impressed by the tension and difficulty of exploring the cave. With the progress of the game, players will pick up powerful weapons and they will explore how to use those weapons.
 
-
 ## 2. Core Gameplay (~400 words)
-
 
 2.1 spitters. Spitter is a powerful monster in the game. At the beginning of the game, if the player stands still on the ground, they will be attacked by underground spitters, forcing them to start the game and giving them a sense of urgency.
 2.2 Spike spike does not actively attack players, so I placed a spike at the beginning of the game to familiarize players with enemies in the game. At the same time, I found that spikes cannot be killed by weapons and can block bullets, so I placed bullet-blocking spikes in part three.
@@ -59,7 +58,6 @@ In the game, players will find movable boxes and they will try to move the box t
 2.10 weapon pickup (gun) I put guns before entering part three so that players could use guns to kill monsters outside caves and get healing before entering caves. A gun is also useful for killing cave monsters.
 2.11 acid Before entering part three, the player will encounter acid, The Player needs to be careful and quickly break obstacles to enter the cave.
 
-
 ## 3. Spatiotemporal Design
 A section on Spatiotemporal Design, which includes your molecule diagram and annotated level maps (one for each main section of your level). These diagrams may be made digitally or by hand, but must not be created from screenshots of your game. The annotated level maps should show the structure you intend to build, included game elements, and the path the player is expected to take through the level. Examples of these diagrams are included in the level design lectures.
 
@@ -69,15 +67,14 @@ No additional words are necessary for this section (any words should only be wit
 
 ### 3.2. Level Map – Section 1
 
-### 3.3.	Level Map – Section 2
+### 3.3.    Level Map – Section 2
 
-### 3.4.	Level Map – Section 3
+### 3.4.    Level Map – Section 3
 
 ## 4. Iterative Design (~400 words)
-Reflect on how iterative design helped to improve your level. Additional prototypes and design artefacts should be included to demonstrate that you followed an iterative design process (e.g. pictures of paper prototypes, early grey-boxed maps, additional storyboards of later gameplay sequences, etc.). You can also use this section to justify design changes made in Unity after you drew your level design maps shown in section 3. 
+Iterative design allows me to balance various elements within the level, such as enemy placement, platform layout, and power-up distribution. By testing different configurations and observing how players interact with the level, I can adjust these elements to ensure that the level provides an appropriate level of challenge and rewards skilled gameplay.
+ In the beginning, the difficulty levels of the three parts of the game were not evenly balanced, with the first part being too difficult and causing players to frequently die in that section. Through iterative design, I was able to better balance the difficulty levels of all three parts of the game. Secondly, initially, there was no design for moving boxes in the game. However, to attract more player interest, I added two movable boxes in the game which required players to use their brains to push them and reach places they couldn't access before. Additionally, there were frequent bugs in the early stages of the game such as boxes falling underground, etc., but through iterative design, I was able to fix most of these bugs. Finally, I continuously adjusted the difficulty level of the third part of the game so that most players could not win on their first attempt; however, by learning from mistakes and gaining experience they could quickly find a way to victory. In summary: after obtaining a key from the cave entrance, the difficulty level decreased significantly. In future designs, it may be appropriate to increase some difficulties.
 
-You should conclude by highlighting a specific example of an encounter, or another aspect of your level design, that could be improved through further iterative design.
-Iterative design has greatly helped my game design. Firstly, at the beginning, the difficulty levels of the three parts of the game were not evenly balanced, with the first part being too difficult and causing players to frequently die in that section. Through iterative design, I was able to better balance the difficulty levels of all three parts of the game. Secondly, initially there was no design for moving boxes in the game. However, in order to attract more player interest, I added two movable boxes in the game which required players to use their brains to push them and reach places they couldn't access before. Additionally, there were frequent bugs in the early stages of the game such as boxes falling underground etc., but through iterative design I was able to fix most of these bugs. Finally, I continuously adjusted the difficulty level of the third part of the game so that most players could not win on their first attempt; however by learning from mistakes and gaining experience they could quickly find a way to victory. In summary: after obtaining key from cave entrance,the difficulty level decreased significantly.In future designs,it may be appropriate to increase some difficulties.
 
 ## Generative AI Use Acknowledgement
 
